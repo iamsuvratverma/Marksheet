@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 10px solid black;
+            text-align: center;
+            border-width: 1px;
+            border-color: black;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: auto;
+        }
+
+        td:nth-child(-n+8) {
+            background-color: rgb(220, 211, 226);
+        }
+
+        td:nth-child(1) {
+            background-color: rgb(233, 215, 176);
+        }
+
+        th:nth-child(n+1) {
+            background-color: rgb(156, 161, 240);
+        }
+       
+        th:hover{
+            background-color: rgb(228, 93, 31);
+            transition-duration: 0.7s;
+            transform:matrix  (1.1);
+            cursor: crosshair;
+        }
+        tr:hover{
+        
+        background-color: rgb(0, 255, 55); 
+        transform:scale(1.1);
+        transition-duration: 0.7s;
+        cursor: crosshair;
+        }
+        .abc {
+            border: 5px groove rgba(108, 218, 245, 0.438);
+            padding: 1px 1px 20px 1px;
+        }
+        .a{
+        text-decoration: none;
+        color: rgb(14, 13, 13);
+        font-size: 15px;
+        }
+        .d{
+            float: right;
+        }
+    </style>
+
+</head>
+<div class="abc">
+    <h1 style="text-align: center; color: rgb(12, 33, 224); text-decoration: underline;">MARKSHEET</h1>
+
+    <body>
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>English</th>
+                <th>Maths</th>
+                <th>Science</th>
+                <th>Hindi</th>
+                <th>Commerce</th>
+                <th>total marks</th>
+                <th>obtained marks</th>
+            </tr>
+            <tr>
+                <td>Aditya</td>
+                <td>85</td>
+                <td>75</td>
+                <td>69</td>
+                <td>78</td>
+                <td>74</td>
+                <td>500</td>
+                <td>314</td>
+            </tr>
+            <tr>
+                <td>Neeraj</td>
+                <td>59</td>
+                <td>79</td>
+                <td>78</td>
+                <td>63</td>
+                <td>74</td>
+                <td>500</td>
+                <td>353</td>
+
+            </tr>
+
+
+            <tr>
+                <td>Jai</td>
+                <td>74</td>
+                <td>47</td>
+                <td>85</td>
+                <td>66</td>
+                <td>75</td>
+                <td>500</td>
+                <td>347</td>
+            </tr>
+            <tr>
+                <td>Vishwa</td>
+                <td>74</td>
+                <td>54</td>
+                <td>36</td>
+                <td>64</td>
+                <td>78</td>
+                <td>500</td>
+                <td>306</td>
+            </tr>
+            <tr>
+                <td>Monika</td>
+                <td>45</td>
+                <td>96</td>
+                <td>78</td>
+                <td>64</td>
+                <td>69</td>
+                <td>500</td>
+                <td>352</td>
+            </tr>
+            <tr>
+                <td>Hemant</td>
+                <td>45</td>
+                <td>49</td>
+                <td>47</td>
+                <td>96</td>
+                <td>74</td>
+                <td>500</td>
+                <td>311</td>
+            </tr>
+        </table>
+       
+</div>
+<div class="d"><a class="a" href=>Too see another table</a> <button><a href="http://127.0.0.1:5500/table%20activity.html" target="_blank">click here</a></button></div>
+</body>
+
+</html>
